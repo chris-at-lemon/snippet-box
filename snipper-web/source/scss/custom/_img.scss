@@ -1,0 +1,28 @@
+#sectionHome img {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 991px) {
+  #sectionHome img {
+    object-fit: contain;
+    max-width: 190px;
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-img {
+    max-width: 190px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 776px) {
+  .section-img {
+    max-width: 190px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
